@@ -1,0 +1,39 @@
+Commandes GIT (avec explication! ;3)
+
+TP 1 GIT :
+- visualiser les differantes versions de git : 
+$ git log -–oneline
+
+- Revenir sur une ancienne version d'un commit : 
+$ git checkout (hash du commit)
+
+pour annuler : 
+$ git checkout main
+
+- Revenir definitivement à une ancienne version d'un commit : 
+(reveler le hash du commit concerné) $ git log -–oneline
+(Revenir à un commit précédent et effacer les versions plus récentes ) $ git reset –-hard (hash du commit)
+(Forcer la mise à jour sur github ) $ git push --force
+
+
+TP 2 GIT :
+- Cloner un projet GITHUB :
+Se positioner à l'endroit ou on souhaite que le répertoire soit créé :
+$ cd (chemin vers l'endroit)
+
+puis 
+
+$ git clone https://github.com/compte/depot-a-cloner.git
+(pour trouver le nom du .git, il faut aller dans <>code puis HTTPS)
+
+- Cloner un projet GITHUB privé :
+Aller dans le répertoire git :
+$ cd (chemin vers le réperoire)
+
+puis 
+
+$ git clone https://github.com/compte/depot-a-cloner.git
+(Si le dépôt est privé, il faut avoir effectué la phase d’authentification au préalable !)
+
+
+ah bah finalement j'ai fait ça pour rien...  :,0
